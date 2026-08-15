@@ -40,7 +40,7 @@
 
 ## 📊 Dashboard & Visualization Preview
 The analytical visual summary provides insights into store performance, category distributions, and branch metrics.
-       " currently working on this part "
+   -    " currently working on this part "
 ---
 
 ## ⚙️ Methodology & Technical Workflow
