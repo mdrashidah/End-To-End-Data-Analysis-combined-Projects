@@ -48,11 +48,6 @@ The analytical visual summary provides insights into store performance, category
 ### 1. Data Cleaning & Feature Engineering
 * Handled null values, inconsistencies, and formatting across transactional records.
 * Extracted time-based dimensions: time_of_day (Morning, Afternoon, Evening), day_name, and month_name.
-* Calculated key financial metrics:
-  * $\text{Total} = \text{Unit Price} \times \text{Quantity} + \text{VAT}$
-  * $\text{COGS} = \text{Unit Price} \times \text{Quantity}$
-  * $\text{Gross Income} = \text{Total} - \text{COGS}$
-  * $\text{Gross Margin Percentage} = \frac{\text{Gross Income}}{\text{Total}} \times 100$
 
 ### 2. Exploratory Data Analysis (EDA)
 * Uncovered distribution patterns across sales volume, customer ratings, and product categories.
@@ -61,16 +56,17 @@ The analytical visual summary provides insights into store performance, category
 
 ### 3. Business Insights via SQL
 * Formulated targeted SQL queries to answer critical business questions:
-  * Which product lines generate the highest revenue vs. profit margin?
-  * What is the average customer spending pattern across member vs. normal shoppers?
-  * Which store location experiences the highest traffic during evening hours?
+ • Calculated the total quantity of items sold per payment method
+ • Determined the minimum, maximum, and average product category rating for each city
+ • Calculated the total profit and total revenue for each product category
+ • Find the most common payment method used by customers at each branch
+ • Categorize sales into morning, afternoon & evening to find the busiest shift based on no. of invoices in every shift
 
 ---
 
 ## 🔑 Key Metrics & Actionable Insights
 * **Top Revenue Drivers:** The *Food & Beverages* and *Electronic Accessories* product lines accounted for the largest share of total sales volume.
 * **Peak Shopping Windows:** Peak transaction volumes occurred during late afternoon and early evening hours (between 3:00 PM and 7:00 PM), particularly on weekends.
-* **Member vs. Non-Member Behavior:** Member customers generated higher repeat purchase frequency, while average transaction value remained balanced across groups.
 * **Branch Variance:** Branch A consistently generated higher gross profit margins, driven by higher sales density in premium product tiers.
 
 ---
