@@ -78,4 +78,21 @@ The analytical visual summary provides insights into store performance, category
    cd End-To-End-Data-Analysis-combined-Projects/Walmart-sales-Analytics-Project
 2. **Review the Code & EDA** : Open and run Walmart_Sales_Analysis.ipynb in Jupyter Notebook or VS Code to inspect the end-to-end Python pipeline.
 3. **Execute SQL Queries** : Import Walmart_Sales_SQL_Queries.sql into MySQL Workbench, pgAdmin, or your preferred SQL editor.
-4. **Read the Full Report** : Open Formal_Project_Report_Walmart_Sales.docx for complete statistical breakdowns and business recommendations.   
+4. **Read the Full Report** : Open Formal_Project_Report_Walmart_Sales.docx for complete statistical breakdowns and business recommendations.
+
+---
+
+
+### 🌐 Feel Free to Connect With Me:
+
+<div align="center">
+  <a href="https://github.com/mdrashidah" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://linkedin.com/in/mdrashidah" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+  <a href="mailto:rashidnrlbhilai@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
+  </a>
+</div>
