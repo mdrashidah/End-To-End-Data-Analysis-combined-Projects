@@ -26,38 +26,28 @@ This repository is designed to demonstrate practical expertise in solving comple
 | **Spreadsheet Modeling** | Excel (Advanced Formulas, Pivot Tables, Power Query) |
 | **Version Control & Docs** | Git, GitHub, Markdown |
 
--
----
-
-### Option 2: Clean ASCII / Text Code Block
-
-Use this fixed-width block to preserve visual alignment across all markdown readers:
-
+----
 ## 📁 Data Cleaning Process and Transformation to Actionable Insights
 
-┌────────────────────────────────────────┐
-│           Raw Data Sources             │
-└───────────────────┬────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐       ┌─────────────────────────────────┐
-│  1. Data Cleaning & Transformation     │ ────▶ │  Python / Pandas / Excel / SQL  │
-└───────────────────┬────────────────────┘       └─────────────────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐       ┌─────────────────────────────────┐
-│  2. Exploratory & Statistical Analysis │ ────▶ │ Distributions, Trends,          │
-└───────────────────┬────────────────────┘       │ Correlations                    │
-                    │                            └─────────────────────────────────┘
-                    ▼
-┌────────────────────────────────────────┐       ┌─────────────────────────────────┐
-│  3. Interactive Visualization          │ ────▶ │ Power BI / Dynamic Dashboards   │
-└───────────────────┬────────────────────┘       └─────────────────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐       ┌─────────────────────────────────┐
-│  4. Actionable Business Insights       │ ────▶ │ Executive Summaries & Strategy  │
-└────────────────────────────────────────┘       └─────────────────────────────────┘
+graph TD
+    A["Raw Data Sources"] --> B["1. Data Cleaning & Transformation"]
+    B -.-> B1["Tools: Python / Pandas / Excel / SQL"]
+    B --> C["2. Exploratory & Statistical Analysis"]
+    C -.-> C1["Focus: Distributions, Trends, Correlations"]
+    C --> D["3. Interactive Visualization"]
+    D -.-> D1["Platforms: Power BI / Dynamic Dashboards"]
+    D --> E["4. Actionable Business Insights"]
+    E -.-> E1["Outputs: Executive Summaries & Strategy"]
+
+    style A fill:#f9f9f9,stroke:#333,stroke-width:1px
+    style B fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style C fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style D fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style E fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style B1 fill:#fafafa,stroke:#999,stroke-dasharray: 5 5
+    style C1 fill:#fafafa,stroke:#999,stroke-dasharray: 5 5
+    style D1 fill:#fafafa,stroke:#999,stroke-dasharray: 5 5
+    style E1 fill:#fafafa,stroke:#999,stroke-dasharray: 5 5
 
 ## 🖥️💾 Ensure you have the following installed locally:
 * Python 3.8+
