@@ -1,4 +1,4 @@
-# # 📊 End-to-End Data Analytics Portfolio Repository
+# 📊 End-to-End Data Analytics Portfolio Repository
 
 Welcome to the **End-to-End Data Analytics Portfolio** repository. This repository showcases a comprehensive collection of data analytics projects covering the entire data lifecycle—from raw data ingestion, exploratory data analysis (EDA), and data cleaning to statistical modeling, business intelligence dashboards, and actionable business insights.
 
@@ -30,16 +30,22 @@ This repository is designed to demonstrate practical expertise in solving comple
 
 ## 📂 Data Cleaning process and transformation to actionable insights process 
 
-[ Raw Data Sources ]
+| [ Raw Data Sources ] |
         │
         ▼
-[ 1. Data Cleaning & Transformation ] ──▶ (Python / Pandas / Excel / SQL)
+| [ 1. Data Cleaning & Transformation ] | ──▶ | (Python / Pandas / Excel / SQL) |
         │
         ▼
-[ 2. Exploratory & Statistical Analysis ] ──▶ (Distributions, Trends, Correlations)
+| [ 2. Exploratory & Statistical Analysis ] | ──▶ | (Distributions, Trends, Correlations) |
         │
         ▼
-[ 3. Interactive Visualization ] ──▶ (Power BI / Dynamic Dashboards)
+| [ 3. Interactive Visualization ] | ──▶ | (Power BI / Dynamic Dashboards) |
         │
         ▼
-[ 4. Actionable Business Insights ] ──▶ (Executive Summaries & Strategy)
+| [ 4. Actionable Business Insights ] | ──▶ | (Executive Summaries & Strategy) |
+
+## 🖥️💾 Ensure you have the following installed locally:
+* Python 3.8+
+* MySQL
+* Power BI Desktop
+* Microsoft Excel (2019 or newer version)
