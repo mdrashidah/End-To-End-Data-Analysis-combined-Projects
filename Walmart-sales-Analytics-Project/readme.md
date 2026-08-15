@@ -1,13 +1,13 @@
-## Walmart sales analysis project
+## 🛒 Walmart Sales End-to-End Data Analysis Project
 <img width="1024" height="506" alt="image_b7b5077b-7ef6-4097-a950-6108a608107c" src="https://github.com/user-attachments/assets/3a105913-cb05-4bd6-a115-f51b65ceaa4f" />
-# 🛒 Walmart Sales End-to-End Data Analysis Project
 
-![Walmart Sales Project Banner](banner.png)
+---
 
 ## 📌 Executive Summary & Business Problem
-Retail analytics plays a crucial role in managing inventory, optimizing pricing, and forecasting store performance. This end-to-end project conducts an in-depth exploratory and diagnostic analysis of multi-branch transactional sales data from Walmart.
 
-The primary objective is to evaluate branch performance, identify high-margin product lines, analyze customer purchasing behavior across payment channels, and deliver actionable insights for store operations and revenue optimization.
+• Retail analytics plays a crucial role in managing inventory, optimizing pricing, and forecasting store performance. This end-to-end project conducts an in-depth exploratory and diagnostic analysis of multi-branch transactional sales data from Walmart.
+
+• The primary objective is to evaluate branch performance, identify high-margin product lines, analyze customer purchasing behavior across payment channels, and deliver actionable insights for store operations and revenue optimization.
 
 ---
 
