@@ -1,6 +1,6 @@
 # 📊 End-to-End Data Analytics Portfolio Repository
 
-<img width="1024" height="559" alt="image_6254020a-352e-4365-8e5c-96fd8078a6e7" src="https://github.com/user-attachments/assets/11141cae-f610-4c78-a3da-ee3a183259f6" />
+<img width="1024" height="559" alt="image_c07075de-f405-4478-9378-729689016f49" src="https://github.com/user-attachments/assets/343d398d-e615-4cb6-a796-36dc1dd623d3" />
 
 
 Welcome to the **End-to-End Data Analytics Portfolio** repository. This repository showcases a comprehensive collection of data analytics projects covering the entire data lifecycle—from raw data ingestion, exploratory data analysis (EDA), and data cleaning to statistical modeling, business intelligence dashboards, and actionable business insights.
