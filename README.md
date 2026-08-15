@@ -62,3 +62,19 @@ This repository is designed to demonstrate practical expertise in solving comple
 * MySQL
 * Power BI Desktop
 * Microsoft Excel (2019 or newer version)
+
+---
+
+### 🌐 Feel Free to Connect With Me:
+
+<div align="center">
+  <a href="https://github.com/mdrashidah" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://linkedin.com/in/mdrashidah" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+  <a href="mailto:rashidnrlbhilai@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
+  </a>
+</div>
