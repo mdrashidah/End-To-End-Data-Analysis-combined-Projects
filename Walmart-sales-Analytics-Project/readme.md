@@ -56,11 +56,11 @@ The analytical visual summary provides insights into store performance, category
 
 ### 3. Business Insights via SQL
 * Formulated targeted SQL queries to answer critical business questions:
- • Calculated the total quantity of items sold per payment method
- • Determined the minimum, maximum, and average product category rating for each city
- • Calculated the total profit and total revenue for each product category
- • Find the most common payment method used by customers at each branch
- • Categorize sales into morning, afternoon & evening to find the busiest shift based on no. of invoices in every shift
+  - Calculated the total quantity of items sold per payment method
+  - Determined the minimum, maximum, and average product category rating for each city
+  - Calculated the total profit and total revenue for each product category
+  - Find the most common payment method used by customers at each branch
+  - Categorize sales into morning, afternoon & evening to find the busiest shift based on no. of invoices in every shift
 
 ---
 
