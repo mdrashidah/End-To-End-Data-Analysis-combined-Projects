@@ -26,23 +26,38 @@ This repository is designed to demonstrate practical expertise in solving comple
 | **Spreadsheet Modeling** | Excel (Advanced Formulas, Pivot Tables, Power Query) |
 | **Version Control & Docs** | Git, GitHub, Markdown |
 
+-
 ---
 
-## 📂 Data Cleaning process and transformation to actionable insights process 
+### Option 2: Clean ASCII / Text Code Block
 
-| [ Raw Data Sources ] |
-        │
-        ▼
-| [ 1. Data Cleaning & Transformation ] | ──▶ | (Python / Pandas / Excel / SQL) |
-        │
-        ▼
-| [ 2. Exploratory & Statistical Analysis ] | ──▶ | (Distributions, Trends, Correlations) |
-        │
-        ▼
-| [ 3. Interactive Visualization ] | ──▶ | (Power BI / Dynamic Dashboards) |
-        │
-        ▼
-| [ 4. Actionable Business Insights ] | ──▶ | (Executive Summaries & Strategy) |
+Use this fixed-width block to preserve visual alignment across all markdown readers:
+
+## 📁 Data Cleaning Process and Transformation to Actionable Insights
+
+┌────────────────────────────────────────┐
+│           Raw Data Sources             │
+└───────────────────┬────────────────────┘
+                    │
+                    ▼
+┌────────────────────────────────────────┐       ┌─────────────────────────────────┐
+│  1. Data Cleaning & Transformation     │ ────▶ │  Python / Pandas / Excel / SQL  │
+└───────────────────┬────────────────────┘       └─────────────────────────────────┘
+                    │
+                    ▼
+┌────────────────────────────────────────┐       ┌─────────────────────────────────┐
+│  2. Exploratory & Statistical Analysis │ ────▶ │ Distributions, Trends,          │
+└───────────────────┬────────────────────┘       │ Correlations                    │
+                    │                            └─────────────────────────────────┘
+                    ▼
+┌────────────────────────────────────────┐       ┌─────────────────────────────────┐
+│  3. Interactive Visualization          │ ────▶ │ Power BI / Dynamic Dashboards   │
+└───────────────────┬────────────────────┘       └─────────────────────────────────┘
+                    │
+                    ▼
+┌────────────────────────────────────────┐       ┌─────────────────────────────────┐
+│  4. Actionable Business Insights       │ ────▶ │ Executive Summaries & Strategy  │
+└────────────────────────────────────────┘       └─────────────────────────────────┘
 
 ## 🖥️💾 Ensure you have the following installed locally:
 * Python 3.8+
