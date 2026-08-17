@@ -39,8 +39,9 @@
 ---
 
 ## 📊 Dashboard & Visualization Preview
-The analytical visual summary provides insights into store performance, category distributions, and branch metrics.
-   -    " currently working on this part "
+The analytical visual summary provides insights into store performance, category distributions, cities with the highest sales, payment mtd. shares and product rating.
+<img width="999" height="561" alt="image" src="https://github.com/user-attachments/assets/e444a7bc-e264-4578-b08c-41ecc1ea5502" />
+
 ---
 
 ## ⚙️ Methodology & Technical Workflow
@@ -61,6 +62,28 @@ The analytical visual summary provides insights into store performance, category
   - Calculated the total profit and total revenue for each product category
   - Find the most common payment method used by customers at each branch
   - Categorize sales into morning, afternoon & evening to find the busiest shift based on no. of invoices in every shift
+ 
+  - ## ⚙️ Methodology & Technical Workflow
+
+* **Data Ingestion & Preprocessing (Power Query)**
+   - Loaded and validated raw transaction data (`Walmart_cleaned.csv`).
+   - Handled data types, date/time parsing, and cleaned null/inconsistent records.
+   - Binned store operating hours into work shifts (`Morning`, `Afternoon`, `Evening`) and categorized customer ratings (`Average`, `Good`, `Poor`).
+
+* **Data Modeling & DAX Calculations**
+   - Built custom measures and aggregations for core business KPIs:
+     - Total Sales = $\sum(\text{Unit Price} \times \text{Quantity})$
+     - Total Profit Earned = $\sum(\text{Profit Margin} \times \text{Total Sales})$
+     - Total Items Sold = $\sum(\text{Quantity})$
+     - Shift / Rating Distributions using percentage of total aggregations.
+
+* **Dashboard Architecture & Visual Analytics**
+   - **Executive KPI Cards:** Top-level visibility into total categories, volume sold, and cumulative profit.
+   - **Geospatial & Top N Analysis:** Interactive Bing Map integration alongside ranked tables for top-performing revenue cities.
+   - **Customer & Operational Insights:** 100% stacked bar charts for category satisfaction, donut charts for payment preferences and crowd shift patterns, and stacked column charts for profit distribution by rating segment.
+
+* **Interactivity & Filtering**
+   - Implemented dynamic multi-attribute slicers (Payment Method, City, Profit Margin, Rating Category) with cross-filtering across all visual components.
 
 ---
 
