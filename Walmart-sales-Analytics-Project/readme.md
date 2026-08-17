@@ -63,7 +63,7 @@ The analytical visual summary provides insights into store performance, category
   - Find the most common payment method used by customers at each branch
   - Categorize sales into morning, afternoon & evening to find the busiest shift based on no. of invoices in every shift
  
-  - ## ⚙️ Methodology & Technical Workflow
+### 4. Dashboard Report and Insights 
 
 * **Data Ingestion & Preprocessing (Power Query)**
    - Loaded and validated raw transaction data (`Walmart_cleaned.csv`).
