@@ -40,7 +40,7 @@
 
 ## 📊 Dashboard & Visualization Preview
 The analytical visual summary provides insights into store performance, category distributions, cities with the highest sales, payment mtd. shares and product rating.
-<img width="999" height="561" alt="image" src="https://github.com/user-attachments/assets/e444a7bc-e264-4578-b08c-41ecc1ea5502" />
+<img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/8da9218c-c982-484e-9655-75dba067d4b7" />
 
 ---
 
